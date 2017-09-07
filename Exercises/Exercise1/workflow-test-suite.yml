@@ -1,0 +1,45 @@
+##########################################################################################
+#  Global settings
+##########################################################################################
+galaxy_url:     "http://192.168.99.100:30700"            # default is GALAXY_URL
+galaxy_api_key: "5d9423e8d6f591efdfef78ad9f5f8bcc"       # default is GALAXY_API_KEY
+enable_debug:   "False"                                  # enable debug level
+output_folder:  "results"                                # path folder for outputs
+
+##########################################################################################
+#  Workflow tests
+##########################################################################################
+workflows:
+
+  ########################################################################################
+  # workflow test case: "workflow_test_case_1"
+  ########################################################################################
+  workflow_test_case_1:
+
+    # worflow definition file (i.e., `.ga`file)
+    file: "workflow.ga"
+
+    # input section
+    #######################################################################################
+    inputs:
+    
+      # short form
+      # input_1: "inputs/<INPUT_FILE_PATH>"
+
+      # extended form
+      InputText:
+        file: "inputs/input"
+        type: "txt"
+    
+    # expected outputs
+    #######################################################################################
+    expected:
+    
+      # short form
+      # output_1: "expected/<OUTPUT_FILE_PATH>"
+
+      # extended form
+      OutputText:
+        file: "expected/output"
+        comparator: "filecmp.cmp"
+    
