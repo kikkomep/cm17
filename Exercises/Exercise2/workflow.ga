@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true", 
     "annotation": "", 
     "format-version": "0.1", 
-    "name": "ChangeCaseLower", 
+    "name": "ChangeCaseOnlyRename", 
     "steps": {
         "0": {
             "annotation": "", 
@@ -75,18 +75,18 @@
                 }
             }, 
             "tool_id": "ChangeCase", 
-            "tool_state": "{\"__page__\": null, \"casing\": \"\\\"lo\\\"\", \"__rerun_remap_job_id__\": null, \"cols\": \"\\\"c1,c2\\\"\", \"delimiter\": \"\\\"TAB\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}", 
+            "tool_state": "{\"__page__\": null, \"casing\": \"\\\"up\\\"\", \"__rerun_remap_job_id__\": null, \"cols\": \"\\\"c1,c2\\\"\", \"delimiter\": \"\\\"TAB\\\"\", \"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}", 
             "tool_version": "1.0.0", 
             "type": "tool", 
             "uuid": "593beb9e-3ce8-4bc6-84c7-03ce625a6ebc", 
             "workflow_outputs": [
                 {
-                    "label": "OutputText", 
+                    "label": "", 
                     "output_name": "out_file1", 
                     "uuid": "9a060103-9bb9-4360-8a1e-410b5baf7e78"
                 }
             ]
         }
     }, 
-    "uuid": "aa41fdcb-e507-4065-a380-4e477442820b"
+    "uuid": "6a3af127-1a7c-4a6e-9ce6-8251bc419175"
 }
