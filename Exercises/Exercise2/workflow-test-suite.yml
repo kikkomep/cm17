@@ -17,7 +17,7 @@ workflows:
   workflow_test_case_1:
 
     # worflow definition file (i.e., `.ga`file)
-    file: "workflow-lower.ga"
+    file: "workflow.ga"
 
     # input section
     #######################################################################################
