@@ -1,10 +1,10 @@
 ##########################################################################################
 #  Global settings
 ##########################################################################################
-#galaxy_url:     "http://192.168.99.100:30700"            # default is GALAXY_URL
-#galaxy_api_key: "5d9423e8d6f591efdfef78ad9f5f8bcc"       # default is GALAXY_API_KEY
-#enable_debug:   "False"                                  # enable debug level
-#output_folder:  "results"                                # path folder for outputs
+galaxy_url:     "http://192.168.99.100:30700"            # default is GALAXY_URL
+galaxy_api_key: "5d9423e8d6f591efdfef78ad9f5f8bcc"       # default is GALAXY_API_KEY
+enable_debug:   "False"                                  # enable debug level
+output_folder:  "results"                                # path folder for outputs
 
 ##########################################################################################
 #  Workflow tests
